@@ -1,5 +1,6 @@
 #include <math.h>
 
+
   int d1 = 2;
   int p1 = 3;
   int d2 = 4;
@@ -49,7 +50,7 @@ void omni3wheel(int angle, int speed) {
 
   float radianAngle = angle * PI / 180.0;
 
-  // Calculate individual motor speeds based on omni bot control equations
+  // Calculate individual motor speeds based on omnibot control equations
 
   int m1 = speed * cos(radianAngle - PI/3);
   int m2 = speed * cos(radianAngle + PI/3);
